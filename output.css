@@ -534,6 +534,14 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.visible {
+  visibility: visible;
+}
+
+.collapse {
+  visibility: collapse;
+}
+
 .absolute {
   position: absolute;
 }
@@ -774,6 +782,10 @@ video {
   box-sizing: content-box;
 }
 
+.block {
+  display: block;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -786,8 +798,16 @@ video {
   display: flex;
 }
 
+.table {
+  display: table;
+}
+
 .grid {
   display: grid;
+}
+
+.contents {
+  display: contents;
 }
 
 .hidden {
@@ -882,12 +902,20 @@ video {
   width: 83.333333%;
 }
 
+.w-11 {
+  width: 2.75rem;
+}
+
 .w-11\/12 {
   width: 91.666667%;
 }
 
 .w-12 {
   width: 3rem;
+}
+
+.w-3 {
+  width: 0.75rem;
 }
 
 .w-3\/5 {
@@ -900,6 +928,10 @@ video {
 
 .w-6 {
   width: 1.5rem;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .w-8\/12 {
@@ -999,8 +1031,16 @@ video {
   max-width: calc(100% - 500px);
 }
 
+.flex-grow {
+  flex-grow: 1;
+}
+
 .grow {
   flex-grow: 1;
+}
+
+.border-collapse {
+  border-collapse: collapse;
 }
 
 .rotate-0 {
@@ -1028,8 +1068,16 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .cursor-pointer {
   cursor: pointer;
+}
+
+.resize {
+  resize: both;
 }
 
 .grid-cols-3 {
@@ -1070,6 +1118,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -1259,20 +1311,20 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\.\/Images\/feature-section-2BG\.svg\)\] {
-  background-image: url(./Images/feature-section-2BG.svg);
+.bg-\[url\(images\/CTABg\.svg\)\] {
+  background-image: url(images/CTABg.svg);
 }
 
-.bg-\[url\(\.\/images\/core-features-sectionBg\.svg\)\] {
-  background-image: url(./images/core-features-sectionBg.svg);
+.bg-\[url\(images\/core-features-sectionBg\.svg\)\] {
+  background-image: url(images/core-features-sectionBg.svg);
 }
 
-.bg-\[url\(\.\/images\/instant-settlement-bg\.svg\)\] {
-  background-image: url(./images/instant-settlement-bg.svg);
+.bg-\[url\(images\/feature-section-2BG\.svg\)\] {
+  background-image: url(images/feature-section-2BG.svg);
 }
 
-.bg-\[url\(\/Images\/CTABg\.svg\)\] {
-  background-image: url(/Images/CTABg.svg);
+.bg-\[url\(images\/instant-settlement-bg\.svg\)\] {
+  background-image: url(images/instant-settlement-bg.svg);
 }
 
 .bg-cover {
@@ -1506,6 +1558,11 @@ video {
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
+.text-grayBlue {
+  --tw-text-opacity: 1;
+  color: rgb(52 74 108 / var(--tw-text-opacity));
+}
+
 .text-grayText {
   --tw-text-opacity: 1;
   color: rgb(129 133 151 / var(--tw-text-opacity));
@@ -1558,6 +1615,10 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.outline {
+  outline-style: solid;
+}
+
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1579,8 +1640,8 @@ video {
   background-color: rgb(11 114 231 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-\[url\(\.\/images\/instant-settlement-bghover\.svg\)\]:hover {
-  background-image: url(./images/instant-settlement-bghover.svg);
+.hover\:bg-\[url\(images\/instant-settlement-bghover\.svg\)\]:hover {
+  background-image: url(images/instant-settlement-bghover.svg);
 }
 
 .hover\:text-lightBlue:hover {
